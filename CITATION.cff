@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+- family-names: "Adhikari"
+  given-names: "Neil"
+  orcid: "https://orcid.org/0000-0002-2935-1870"
+title: "USA Birth and Death Statistics"
+version: 1.0
+date-released: 2022-08-04
+url: "https://github.com/neiladhikari/usa_births_deaths_stats"
