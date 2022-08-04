@@ -1,8 +1,8 @@
 # USA Birth and Death statistics.
 This data is current as of: 2022-07-29.
-The objective is to get national vital statistics data from the [CDC](https://www.cdc.gov/) website, specifically births and deaths by US states and territories.
+The objective is to use pandas for web scraping, to get national vital statistics data from the [CDC](https://www.cdc.gov/) website, specifically births and deaths by US states and territories. After obtaining the required data, we will use pandas for getting some basic stats, and matplotlib for data visualization. Another objective is to merge this dataset with the total population dataset, trying out left join, right join, join on, and other techniques. More analyses will be conducted after this data join/ merge.
 Currently available data summary is for 2020 only, and that is what [this url](https://www.cdc.gov/nchs/fastats/state-and-territorial-data.htm) used in the jupyter notebook will pull. This is the most complete data, not most current.
-This page will in its complete form will probably report the most complete numbers to date, so if you check in subsequent years, it should still work.
+The same url will, in its complete form, will probably report the most complete numbers to date, so if you check in subsequent years, it should still work.
 If you want, the most current vital statistics data can be requested from each state. The process for each state varies, and is a different topic for discussion for some other time.
 In this case, the CDC data is tabular, so we will try to use pandas to directly read in the table, instead of going through beautifulsoup.
 
