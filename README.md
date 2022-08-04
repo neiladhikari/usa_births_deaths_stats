@@ -1,10 +1,10 @@
-USA Birth and Death statistics.
-#Current as of: 2022-07-29.
-#Objective is to get national vital statistics data from the CDC website, specifically births and deaths by US states and territories.
-#Currently available data summary is for 2020 only, and that is what the link below will pull. This is the most complete data, not most current.
-#This page will in its complete form will probably report the most complete numbers to date, so if you check in subsequent years, it should still work.
-#If you want, the most current vital statistics data can be requested from each state.
-#In this case, the data is tabular, so we will try to use pandas to directly read in the table, instead of going through beautifulsoup.
+# USA Birth and Death statistics.
+This data is current as of: 2022-07-29.
+The objective is to get national vital statistics data from the [CDC](https://www.cdc.gov/) website, specifically births and deaths by US states and territories.
+Currently available data summary is for 2020 only, and that is what [this url](https://www.cdc.gov/nchs/fastats/state-and-territorial-data.htm) used in the jupyter notebook will pull. This is the most complete data, not most current.
+This page will in its complete form will probably report the most complete numbers to date, so if you check in subsequent years, it should still work.
+If you want, the most current vital statistics data can be requested from each state. The process for each state varies, and is a different topic for discussion for some other time.
+In this case, the CDC data is tabular, so we will try to use pandas to directly read in the table, instead of going through beautifulsoup.
 # Fertility Rate = Number of births per 1000 women between 15-44 years of age.
 # Crude Birth Rate = Number of births per 1000 individuals of a population. i.e. (number of births * 1000)/ population.
 # Death Rate = Number of deaths per 100,000 individuals. i.e. (number of deaths * 100000)/ population.
