@@ -9,8 +9,8 @@ In this case, the CDC data is tabular, so we will try to use pandas to directly 
 Formulas used in this analysis:
 
 1) Fertility Rate = Number of births per 1000 women between 15-44 years of age.
-2) Crude Birth Rate = Number of births per 1000 individuals of a population. i.e. (number of births * 1000)/ population.
-3) Death Rate = Number of deaths per 100,000 individuals. i.e. (number of deaths * 100000)/ population.
+2) Crude Birth Rate = Number of births per 1000 individuals of a population. i.e. (Total Births * 1000)/ population.
+3) Death Rate = Number of deaths per 100,000 individuals. i.e. (Total Deaths * 100000)/ population.
 4) Percent Births = (Total Births * 100) / population.
 5) Percent Deaths = (Total Deaths * 100) / population.
 
